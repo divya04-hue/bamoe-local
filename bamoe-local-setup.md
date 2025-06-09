@@ -156,7 +156,7 @@ https:// <route>
 ```
 ---
 
-## To Deploy BAMOE via Docker, DOcker Compose and or other installations
+## To Deploy BAMOE via Docker, Docker Compose and or other installations
 Refer: https://www.ibm.com/docs/en/ibamoe/9.0.x?topic=installation-bamoe-canvas
 
 ---
@@ -165,11 +165,14 @@ Refer: https://www.ibm.com/docs/en/ibamoe/9.0.x?topic=installation-bamoe-canvas
 
 - [BAMOE Canvas Docs](https://kiegroup.github.io/bamoe-docs/)
 - [Kogito GitHub](https://github.com/kiegroup/kogito-runtimes)
+- [Kogito] (https://kogito.kie.org/)
+- [Drools] (https://www.drools.org/)
+- [jBPM] (https://www.jbpm.org/)
 - [Maven Official Site](https://maven.apache.org/)
 - [OpenShift CLI](https://docs.openshift.com/)
 
 ---
 
-## 👩Maintained by
+## Maintained by
 
 DivyaLakshmi (DevOps Engineer @ IBM)
