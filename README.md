@@ -126,46 +126,7 @@ Apache License 2.0
 
 
 
-brew install --cask iterm2
 
-
-# bamoe-local
-#install Java
-apt update && apt install default-jdk -y
-#Then find its path:
-readlink -f $(which java)
-
-
-#Export JAVA_HOME
-Add the following line to ~/.bashrc:
-echo 'export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64' >> ~/.bashrc 
-echo 'export PATH=$JAVA_HOME/bin:$PATH' >> ~/.bashrc
-
-source ~/.bashrc
-
-verify
-
-echo $JAVA_HOME
-java -version
-mvn -v
-
-
-o/p:
-
-root@localoe1:~# echo $JAVA_HOME
-/usr/lib/jvm/java-11-openjdk-amd64
-root@localoe1:~# 
-root@localoe1:~# java -version
-openjdk version "11.0.27" 2025-04-15
-OpenJDK Runtime Environment (build 11.0.27+6-post-Ubuntu-0ubuntu122.04)
-OpenJDK 64-Bit Server VM (build 11.0.27+6-post-Ubuntu-0ubuntu122.04, mixed mode, sharing)
-root@localoe1:~# 
-root@localoe1:~# mvn -v
-Apache Maven 3.8.8 (4c87b05d9aedce574290d1acc98575ed5eb6cd39)
-Maven home: /root/apache-maven-3.8.8
-Java version: 11.0.27, vendor: Ubuntu, runtime: /usr/lib/jvm/java-11-openjdk-amd64
-Default locale: en_US, platform encoding: UTF-8
-OS name: "linux", version: "5.15.0-140-generic", arch: "amd64", family: "unix"
 
 Using Apache Maven to Setup the Project
 
