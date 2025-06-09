@@ -152,7 +152,7 @@ To get it, run this command:
 oc get route $APP_NAME_BAMOE_CANVAS --output jsonpath={.spec.host}
 ```
 ```bash
-https:// <route>
+https://bamoe-canvas-default.apps.bamoe-local.cp.fyre.ibm.com
 ```
 ---
 
