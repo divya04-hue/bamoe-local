@@ -20,7 +20,7 @@ yum install git -y
 
 ```bash
 apt update && apt install default-jdk -y
-readlink -f $(which java)  # Note the JAVA path
+readlink -f $(which java)  # Note the JAVA path and copy the path till the before the /bin. now export the path till /bin in the next step/.
 ```
 
 ### Set JAVA_HOME and Update PATH
