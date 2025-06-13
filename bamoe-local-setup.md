@@ -18,7 +18,12 @@ yum install git -y
 
 ## Install Java (OpenJDK 11)
 
+ref: https://docs.redhat.com/en/documentation/red_hat_build_of_openjdk/11/html-single/installing_and_using_red_hat_build_of_openjdk_11_on_rhel/index
+
 ```bash
+yum install java-11-openjdk
+java -version
+
 apt update && apt install default-jdk -y
 readlink -f $(which java)  # Note the JAVA path and copy the path till the before the /bin. now export the path till /bin in the next step/.
 ```
@@ -176,3 +181,18 @@ Refer: https://www.ibm.com/docs/en/ibamoe/9.0.x?topic=installation-bamoe-canvas
 ## Maintained by
 
 DivyaLakshmi (DevOps Engineer @ IBM)
+
+
+
+important ref for bamoe install, upgrade and checks: https://www.ibm.com/docs/en/ibamoe/9.2.x?topic=started-initial-business-service-project-setup-walkthrough
+
+
+install maven and java
+setup maven repo
+install helm
+
+```bash
+$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/main/scripts/get-helm-3
+$ chmod 700 get_helm.sh
+$ ./get_helm.sh
+```
