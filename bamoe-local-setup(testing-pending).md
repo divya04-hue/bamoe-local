@@ -21,7 +21,8 @@ yum install git -y
 ref: https://docs.redhat.com/en/documentation/red_hat_build_of_openjdk/11/html-single/installing_and_using_red_hat_build_of_openjdk_11_on_rhel/index
 
 ```bash
-yum install java-11-openjdk
+yum install java-11-openjdk -y
+yum install java-17-openjdk -y 
 java -version
 
 apt update && apt install default-jdk -y
